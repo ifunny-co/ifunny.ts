@@ -1,0 +1,32 @@
+{
+  "name": "ifunny.ts",
+  "version": "1.0.0",
+  "description": "iFunny client built with TypeScript and modern Asyncronous calls",
+  "main": "./dist/index.js",
+  "dependencies": {
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc --build",
+    "cleandist": "rimraf --preserve-root ./dist",
+    "docs": "add docs command"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifunny-co/ifunny.ts.git"
+  },
+  "keywords": [
+    "iFunny",
+    "Wampy",
+    "iFunny.ts"
+  ],
+  "author": "Tobi & MakeShiftArtist",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/ifunny-co/ifunny.ts/issues"
+  },
+  "homepage": "https://github.com/ifunny-co/ifunny.ts#readme"
+}
