@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "iFunny client built with TypeScript and modern Asyncronous calls",
   "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "dependencies": {
     "rimraf": "^3.0.2",
     "ts-node": "^10.2.1",

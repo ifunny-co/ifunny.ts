@@ -1,0 +1,1 @@
+declare function HelloWorld(): string;
