@@ -1,4 +1,1 @@
-function HelloWorld(): string {
-    console.log("HelloWorld")
-    return "Lol"
-}
+export * from "./Objects"

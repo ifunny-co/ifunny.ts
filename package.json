@@ -5,11 +5,18 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "dependencies": {
+    "axios": "^0.22.0",
+    "crypto": "^1.0.1",
+    "events": "^3.3.0",
     "rimraf": "^3.0.2",
     "ts-node": "^10.2.1",
-    "typescript": "^4.4.3"
+    "typescript": "^4.4.3",
+    "wampy-patch": "^1.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/events": "^3.0.0",
+    "@types/node": "^16.10.2"
+  },
   "scripts": {
     "build": "tsc --build",
     "cleandist": "rimraf --preserve-root ./dist",
