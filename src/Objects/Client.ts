@@ -1,5 +1,5 @@
 import { EventEmitter } from "events";
-import axios, { AxiosInstance, AxiosResponse } from "axios";
+import axios, { AxiosInstance } from "axios";
 import { Headers, ClientOptions } from "../Types/Client";
 import crypto from "crypto";
 
